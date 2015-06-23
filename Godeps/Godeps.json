@@ -1,0 +1,98 @@
+{
+	"ImportPath": "github.com/lavab/onboarding-webhook",
+	"GoVersion": "go1.4",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/go.crypto/pbkdf2",
+			"Comment": "null-212",
+			"Rev": "1064b89a6fb591df0dd65422295b8498916b092f"
+		},
+		{
+			"ImportPath": "code.google.com/p/go.crypto/scrypt",
+			"Comment": "null-212",
+			"Rev": "1064b89a6fb591df0dd65422295b8498916b092f"
+		},
+		{
+			"ImportPath": "code.google.com/p/rsc/gf256",
+			"Comment": "null-258",
+			"Rev": "2d8aa6027fab93979a3b4ecdbeb1ba430b489318"
+		},
+		{
+			"ImportPath": "code.google.com/p/rsc/qr",
+			"Comment": "null-258",
+			"Rev": "2d8aa6027fab93979a3b4ecdbeb1ba430b489318"
+		},
+		{
+			"ImportPath": "github.com/GeertJohan/yubigo",
+			"Rev": "b1764f04aa9ba3c98a15084e7e13c1a69753e1da"
+		},
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.8.2-10-g21d4508",
+			"Rev": "21d4508646ae56d79244bd9046c1df63a5fa8c37"
+		},
+		{
+			"ImportPath": "github.com/alexcesaro/quotedprintable",
+			"Rev": "9b4a113f96b3263b5223fe9c5fd1d1115811b343"
+		},
+		{
+			"ImportPath": "github.com/cenkalti/backoff",
+			"Rev": "6c45d6bc1e78d94431dff8fc28a99f20bafa355a"
+		},
+		{
+			"ImportPath": "github.com/dancannon/gorethink",
+			"Comment": "v1.0.0-rc.2",
+			"Rev": "c097463176129ff5598c1a57693f1bfa13d99ba5"
+		},
+		{
+			"ImportPath": "github.com/dchest/uniuri",
+			"Rev": "396b73a566d0993675357e6648bb98587a6162b4"
+		},
+		{
+			"ImportPath": "github.com/eaigner/dkim",
+			"Rev": "6fe4a7ee9cfbd7eabb09b88c9fa4a9885dd3a628"
+		},
+		{
+			"ImportPath": "github.com/gokyle/hotp",
+			"Rev": "cab5c36e945092b6fb703b6c785bb06fd0537a0d"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "34a5f244f1c01cdfee8e60324258cfbb97a42aec"
+		},
+		{
+			"ImportPath": "github.com/gyepisam/mcf",
+			"Comment": "v0.02",
+			"Rev": "805056816f56678a0e70fff55cdc209fb9a21d73"
+		},
+		{
+			"ImportPath": "github.com/lavab/api/factor",
+			"Comment": "2.0.2-25-g6b2b4cf",
+			"Rev": "6b2b4cf2d03683810e226406d4f4b901a63b0fbf"
+		},
+		{
+			"ImportPath": "github.com/lavab/api/models",
+			"Comment": "2.0.2-25-g6b2b4cf",
+			"Rev": "6b2b4cf2d03683810e226406d4f4b901a63b0fbf"
+		},
+		{
+			"ImportPath": "github.com/namsral/flag",
+			"Rev": "bd57b3fc9ada8271ff812ba54f938fe72749d969"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/cast5",
+			"Rev": "c10c31b5e94b6f7a0283272dc2bb27163dcea24b"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp",
+			"Rev": "c10c31b5e94b6f7a0283272dc2bb27163dcea24b"
+		},
+		{
+			"ImportPath": "gopkg.in/alexcesaro/quotedprintable.v2/internal",
+			"Rev": "9b4a113f96b3263b5223fe9c5fd1d1115811b343"
+		}
+	]
+}
