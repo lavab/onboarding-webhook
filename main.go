@@ -229,7 +229,7 @@ func main() {
 			// 1. Welcome to Lavaboom
 			&Timer{
 				ID:      uniuri.NewLen(uniuri.UUIDLen),
-				Time:    time.Now().Add(time.Second * 15),
+				Time:    time.Now().Add(time.Second * 55),
 				From:    "Felix from Lavaboom <hello@lavaboom.com>",
 				To:      []string{account.StyledName + "@lavaboom.com"},
 				Subject: "Welcome to Lavaboom",
@@ -238,7 +238,7 @@ func main() {
 			// 2. Getting started
 			&Timer{
 				ID:      uniuri.NewLen(uniuri.UUIDLen),
-				Time:    time.Now().Add(time.Second * 20),
+				Time:    time.Now().Add(time.Second * 60),
 				From:    "Julie from Lavaboom <hello@lavaboom.com>",
 				To:      []string{account.StyledName + "@lavaboom.com"},
 				Subject: "Getting started with Lavaboom",
@@ -247,7 +247,7 @@ func main() {
 			// 3. Security information
 			&Timer{
 				ID:      uniuri.NewLen(uniuri.UUIDLen),
-				Time:    time.Now().Add(time.Minute * 1),
+				Time:    time.Now().Add(time.Minute * 2),
 				From:    "Andrei from Lavaboom <hello@lavaboom.com>",
 				To:      []string{account.StyledName + "@lavaboom.com"},
 				Subject: "Important security information",
