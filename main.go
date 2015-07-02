@@ -238,8 +238,8 @@ func main() {
 			// 2. Getting started
 			&Timer{
 				ID:      uniuri.NewLen(uniuri.UUIDLen),
-				Time:    time.Now().Add(time.Second * 30),
-				From:    "Tine from Lavaboom <hello@lavaboom.com>",
+				Time:    time.Now().Add(time.Second * 20),
+				From:    "Julie from Lavaboom <hello@lavaboom.com>",
 				To:      []string{account.StyledName + "@lavaboom.com"},
 				Subject: "Getting started with Lavaboom",
 				Body:    o2buf.String(),
@@ -247,7 +247,7 @@ func main() {
 			// 3. Security information
 			&Timer{
 				ID:      uniuri.NewLen(uniuri.UUIDLen),
-				Time:    time.Now().Add(time.Minute * 2),
+				Time:    time.Now().Add(time.Minute * 1),
 				From:    "Andrei from Lavaboom <hello@lavaboom.com>",
 				To:      []string{account.StyledName + "@lavaboom.com"},
 				Subject: "Important security information",
@@ -256,7 +256,7 @@ func main() {
 			// 4. How's it going?
 			&Timer{
 				ID:      uniuri.NewLen(uniuri.UUIDLen),
-				Time:    time.Now().Add(time.Minute * 15),
+				Time:    time.Now().Add(time.Minute * 360),
 				From:    "Lavabot from Lavaboom <hello@lavaboom.com>",
 				To:      []string{account.StyledName + "@lavaboom.com"},
 				Subject: "How's it going?",

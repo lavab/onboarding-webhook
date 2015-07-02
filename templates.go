@@ -32,7 +32,7 @@ var o2tpl = template.Must(template.New("o2").Parse(
 handy links that will help you use Lavaboom:</p>
 
 <p>1. Lavaboom makes encryption easy. <a
-href="https://support.lavaboom.com/&source=onboarding_email">Find out how to
+href="http://support.lavaboom.com/knowledge_base/topics/how-do-i-know-if-a-mail-i-send-is-encrypted">Find out how to
 send encrypted emails.</a></p>
 
 <p>2. Attachments are sent encrypted, please be patient during the upload,
@@ -40,9 +40,9 @@ as encryption performance in some browsers might be slower. Attachments are limi
 to 10MB for the moment, but we'll launch a secure transfer for larger files soon.</p>
 
 <p>3. For questions, walkthroughs and support head to <a
-href="https://support.lavaboom.com/&source=onboarding_email">support.lavaboom.com</a>.
+href="http://support.lavaboom.com/">support.lavaboom.com</a>.
 Or to get in touch with Lavaboom staff anytime,
-just write to hello@lavaboom.com and we'll come back to you asap.
+just write to <a href="mailto:hello@lavaboom.com">hello@lavaboom.com</a> and we'll come back to you asap.
 </p>
 
 <p>A note from the security team will be arriving shortly with additional
@@ -65,12 +65,10 @@ Still there are some things you should consider listed below:</p>
 
 <p><ol>
 <li>Never share your private key with anyone (not even us).
-<a href="http://support.lavaboom.com/knowledge_base/topics/what-do-i-do-with-the-keys?"
->Find out what a private key is.</a></li>
+<a href="http://support.lavaboom.com/knowledge_base/topics/what-do-i-do-with-the-keys?">Find out what a private key is.</a></li>
 <li>We can not guarantee that Lavaboom will protect you from the NSA. However if
 you are moving from a large, standard email-provider (e.g. Gmail), this is already a huge step up in your security.
-<a href="https://lavaboom.com/security">Check out Lavaboom’s security model.
-</a></li>
+<a href="https://lavaboom.com/security">Check out Lavaboom’s security model.</a></li>
 </ol></p>
 
 <p>Happy and secure mailing!</p>
@@ -88,11 +86,10 @@ var o4tpl = template.Must(template.New("o4").Parse(
 you're getting along - how does it feel sending secure emails?</p>
 
 <p> We want to remind you that we are still in closed beta and you might encounter some problems.
-You can find status updates on <a href="http://twitter.com/lavaboomhq">our
+You can find status updates on <a href="https://twitter.com/lavaboomhq">our
 Twitter</a>, <a href="http://facebook.com/lavaboomhq">our Facebook page</a> or
 email us at <a href="mailto:hello@lavaboom.com">hello@lavaboom.com</a>. Find
-additional information and a support-contact-option on <a href="http://support.lavaboom.com">our support
-pages</a>.</p>
+additional information and a support-contact-option on <a href="http://support.lavaboom.com">our support pages</a>.</p>
 
 <p>This message is among the 0.1% of the Internet that is truly private, so
 speak freely.</p>
@@ -102,6 +99,8 @@ speak freely.</p>
 <p>Felix Müller-Irion<br>
 Lavaboom Founder</p>
 `))
+
+//template for future emails
 
 var emtpl = template.Must(template.New("em").Parse(
 	`From: {{.from}}
